@@ -72,6 +72,8 @@ Each new theme should contain a README.md with:
  - Customization Instructions
  - File Structure
 
+
+
  5️⃣ **Making a Pull Request**
 
 Once you’ve added your changes, commit and push them:
@@ -89,8 +91,35 @@ Clearly describe the theme, updates, or fixes.
 - ✔ Provide screenshots or a live demo link if applicable.
 - ✔ Ensure proper file structure and naming conventions.
 
+6️⃣  **Using the ThemeForest Automation Script**
 
-6️⃣ **Code Style Guidelines**
+To streamline the **submission process**, we provide an **automation script** that **minifies assets, optimizes images, runs performance tests, and packages themes** into a **ThemeForest-ready ZIP file**.
+
+🔹 Setting Up the Script
+
+Ensure you have **Node.js, Lighthouse CLI, and zip utilities installed:**
+```bash
+npm install -g clean-css-cli terser lighthouse http-server
+```
+
+Give the script execution permission:
+```bash
+chmod +x upload-theme.sh
+```
+
+🔹 **Running the Script**
+
+```bash
+./upload-theme.sh
+```
+
+The script will:
+ - 📂 Prompt for the theme directory selection
+ - 🌀 Minify CSS & JavaScript
+ - 📊 Run a Lighthouse performance test
+ - 📦 Create a ZIP package for ThemeForest
+
+7️⃣ **Code Style Guidelines**
 
 To maintain consistency across themes, follow these best practices:
 
@@ -99,6 +128,8 @@ To maintain consistency across themes, follow these best practices:
  - JavaScript should avoid bloated libraries unless necessary.
  - Optimize images in /images/ for fast loading speeds.
  - Minify CSS & JS (style.min.css, script.min.js for production).
+
+
 
 ---
 

@@ -1,0 +1,9 @@
+# configs
+.themeforest_config
+
+# generated zips
+*.zip
+
+# .
+.DS_Store
+.vscode/
