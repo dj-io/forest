@@ -11,15 +11,15 @@ Built with **HTML5, CSS3, jQuery, and GSAP**, this template provides smooth anim
 
 <h3 align="center">📦 Features</h1>
 
-- ✅ **Brutalist Aesthetic** – Bold, high-contrast typography with minimal distractions.
-- ✅ **Monochromatic UI/UX** – Inspired by **industrial design language**
-- ✅ **Smooth Scrolling Navigation** – GSAP-enhanced smooth scrolling.
-- ✅ **Custom Cursor** – Interactive, minimal cursor effect.
-- ✅ **Dynamic AJAX Project Overlays** – Load portfolio projects seamlessly.
-- ✅ **SEO Optimized** – Meta tags, structured data for better ranking.
-- ✅ **Fully Responsive** – Mobile, tablet, and desktop-ready.
-- ✅ **Dark Mode First** – Sleek black UI with golden highlights.
-- ✅ **Custom Animations** – GSAP-powered transitions, parallax, and glitch effects.
+- ✔ **Brutalist Aesthetic** – Bold, high-contrast typography with minimal distractions.
+- ✔ **Monochromatic UI/UX** – Inspired by **industrial design language**
+- ✔ **Smooth Scrolling Navigation** – GSAP-enhanced smooth scrolling.
+- ✔ **Custom Cursor** – Interactive, minimal cursor effect.
+- ✔ **Dynamic AJAX Project Overlays** – Load portfolio projects seamlessly.
+- ✔ **SEO Optimized** – Meta tags, structured data for better ranking.
+- ✔ **Fully Responsive** – Mobile, tablet, and desktop-ready.
+- ✔ **Dark Mode First** – Sleek black UI with golden highlights.
+- ✔ **Custom Animations** – GSAP-powered transitions, parallax, and glitch effects.
 
 ---
 
@@ -139,5 +139,5 @@ Then, create a new project file inside /projects/:
 <h3 align="center">📄 License & Usage</h3>
 
 **Personal & Commercial Use Allowed** – As per the ThemeForest License.
-- ✅ Can be used for portfolios, agencies, creative work.
+- ✔ Can be used for portfolios, agencies, creative work.
 - 🚫 Cannot be redistributed or resold without permission.
