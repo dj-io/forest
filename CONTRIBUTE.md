@@ -37,7 +37,7 @@ If you’re submitting a **new ThemeForest-ready theme**, follow these steps:
 
 🔹 **Step 1: Create a New Theme Folder**
 
-Inside `/themeforest-themes/`, create a new folder with your theme’s name.
+Inside `/themeboy/`, create a new folder with your theme’s name.
 
 Example:
 
