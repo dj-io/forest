@@ -53,9 +53,6 @@ Built with **HTML5, CSS3, jQuery, and GSAP**, this template provides smooth anim
 - Open `index.html` in Chrome, Firefox, Safari, or Edge.
 - Enjoy the full experience locally.
 
-### **3️⃣ Upload to Your Server**
-- Upload all files to your web hosting provider.
-- Your site is now live! 🎉
 
 
 <h3 align="center">💻 Installation | Source</h1>
@@ -68,7 +65,7 @@ git clone https://github.com/your-username/vision-systems.git
 cd vision-systems
 ```
 
-### **🔹 Install Dependencies (Optional)**
+### **🔹 Minification Commands**
 While this is a **pure HTML/CSS/JS** template, if you want to work with **minification & optimizations**, any change to scripts.js or style.css require  you run the necessary commands:
 
 **scripts.js changes**
@@ -128,8 +125,18 @@ Then, create a new project file inside /projects/:
 <h2>New Project</h2>
 <p>Description of the project...</p>
 ```
+---
 
-### **📄 License & Usage**
+<h3 align="center">🔌 Dependencies & Libraries</h3>
+
+- jQuery
+- GSAP
+- Google Fonts: Anton & Inter
+- AJAX for Dynamic Project Loading
+
+---
+
+<h3 align="center">📄 License & Usage</h3>
 
 **Personal & Commercial Use Allowed** – As per the ThemeForest License.
 - ✅ Can be used for portfolios, agencies, creative work.
