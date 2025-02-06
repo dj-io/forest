@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brutalist portfolio showcasing creative projects.">
+    <meta name="keywords" content="portfolio, AI, blockchain, web development, brutalist design, minalism, personal portfolio, consulting, agency">
+    <meta name="author" content="Software Agency">
+    <meta property="og:title" content="Brutalist Portfolio">
+    <meta property="og:description" content="A high-performance portfolio with smooth animations and glitch effects.">
+    <meta property="og:image" content="images/preview.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <title>Manifesto - Personal Portfolio</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    
+    <!-- jQuery & GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div class="loader">
+        <h1>LOADING...</h1>
+    </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav id="navbar">
+        <div class="nav-logo">VISION</div>
+        <ul class="nav-links">
+            <li><a href="#manifesto">Manifesto</a></li>
+            <li><a href="#pursuits">Pursuits</a></li>
+            <li><a href="#chronicle">Chronicle</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#engage">Engage</a></li>
+            <li><a href="https://medium.com/" target="_blank">Archive ↗</a></li>
+        </ul>
+    </nav>
+
+    <!-- MANIFESTO SECTION -->
+    <section id="manifesto">
+        <div class="container">
+            <h1 class="manifesto-title">VISION.</h1>
+            <p class="manifesto-text">
+                I create <span class="highlight">digital experiences</span> that disrupt conventions.  
+                Brutalist. Raw. Experimental.  
+                **This is the future.**
+            </p>
+        </div>
+    </section>
+
+    <!-- Other Sections (Placeholder for Now) -->
+   <!-- PURSUITS SECTION -->
+    <section id="pursuits">
+        <div class="pursuits-container">
+            <h2 class="section-title fade-in">PURSUITS</h2>
+            <div class="pursuits-grid">
+                <div class="pursuit fade-in" data-title="Software Engineering">
+                    <h3>Software Engineering</h3>
+                    <p>Building scalable, performant software using cutting-edge technologies.</p>
+                </div>
+                <div class="pursuit fade-in" data-title="AI & Deep Learning">
+                    <h3>AI & Deep Learning</h3>
+                    <p>Exploring generative AI, neural networks, and futuristic applications.</p>
+                </div>
+                <div class="pursuit fade-in" data-title="Creative Direction">
+                    <h3>Creative Direction</h3>
+                    <p>Designing digital experiences that merge art, tech, and culture.</p>
+                </div>
+                <div class="pursuit fade-in" data-title="Blockchain & Web3">
+                    <h3>Blockchain & Web3</h3>
+                    <p>Building decentralized applications and NFT ecosystems.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- CHRONICLE SECTION -->
+    <section id="chronicle">
+        <div class="chronicle-wrapper">
+            <h2 class="section-title fade-in">CHRONICLE</h2>
+            <div class="chronicle-container">
+                <div class="chronicle-timeline">
+                    <div class="chronicle-item fade-in">
+                        <h3 class="year">2024</h3>
+                        <p class="event">Founded a software company specializing in AI, deep learning, and blockchain.</p>
+                    </div>
+                    <div class="chronicle-item fade-in">
+                        <h3 class="year">2022</h3>
+                        <p class="event">Developed an advanced CRM-agnostic UI framework for Twilio Flex.</p>
+                    </div>
+                    <div class="chronicle-item fade-in">
+                        <h3 class="year">2020</h3>
+                        <p class="event">Led a project integrating Web3 infrastructure into scalable applications.</p>
+                    </div>
+                    <div class="chronicle-item fade-in">
+                        <h3 class="year">2018</h3>
+                        <p class="event">Began deep exploration into machine learning and decentralized technologies.</p>
+                    </div>
+                    <div class="chronicle-item fade-in">
+                        <h3 class="year">2016</h3>
+                        <p class="event">Started professional career as a front-end developer with a focus on modern web tech.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- WORKS SECTION -->
+    <section id="works">
+        <div class="works-wrapper">
+            <h2 class="section-title fade-in">WORKS</h2>
+            <div class="works-grid">
+                <div class="work-item fade-in" data-title="AI-Driven CRM">
+                    <a href="#" class="work-link" data-project="project1">
+                        <img src="images/IMG_6952.WEBP" alt="AI-Driven CRM">
+                        <h3 class="work-title">AI-Driven CRM</h3>
+                    </a>
+                </div>
+                <div class="work-item fade-in" data-title="Blockchain App">
+                    <a href="#" class="work-link" data-project="project2">
+                        <img src="images/tumblr_nil8ozsYSS1tmm24mo1_1280.jpeg" alt="Blockchain App">
+                        <h3 class="work-title">Blockchain App</h3>
+                    </a>
+                </div>
+                <div class="work-item fade-in" data-title="Creative UI Kit">
+                    <a href="#" class="work-link" data-project="project3">
+                        <img src="images/my-notion-face-transparent.png" alt="Creative UI Kit">
+                        <h3 class="work-title">Creative UI Kit</h3>
+                    </a>
+                </div>
+                <div class="work-item fade-in" data-title="Generative Art Platform">
+                    <a href="#" class="work-link" data-project="project4">
+                        <img src="images/basqi.jpg" alt="Generative Art">
+                        <h3 class="work-title">Generative Art</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <!-- AJAX LOADER (Hidden by Default) -->
+        <div id="project-overlay">
+            <div class="project-content">
+                <span class="close-btn">&times;</span>
+                <div class="project-details"></div>
+            </div>
+        </div>
+    </section>
+
+  <!-- ENGAGE SECTION -->
+    <section id="engage">
+        <div class="engage-wrapper">
+            <h2 class="section-title fade-in">ENGAGE</h2>
+            <p class="engage-text fade-in">Let’s create something iconic. Hit me up.</p>
+
+            <form id="contact-form" class="fade-in">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="neon-button">SEND IT →</button>
+            </form>
+        </div>
+
+    </section>
+    
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>FUTURE</h3>
+                    <ul>
+                        <li><a href="#manifesto">Manifesto</a></li>
+                        <li><a href="#pursuits">Pursuits</a></li>
+                        <li><a href="#chronicle">Chronicle</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>SYSTEMS</h3>
+                    <ul>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#engage">Engage</a></li>
+                        <li><a href="https://github.com/" target="_blank">Source Code ↗</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>PROTOCOL</h3>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="mailto:contact@youragency.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Vision Systems. Built for the next era.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.min.js"></script>
+</body>
+</html>
