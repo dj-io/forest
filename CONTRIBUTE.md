@@ -9,8 +9,8 @@ This repository houses multiple **high-quality, customizable web themes** for **
 First, fork the repository and clone it to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/themeforest-themes.git
-cd themeforest-themes
+git clone https://github.com/dj-io/themeboy.git
+cd themeboy
 ```
 
 ---
@@ -86,8 +86,8 @@ Then, create a **Pull Request (PR)**:
 
 Clearly describe the theme, updates, or fixes.
 
-- ✅ Provide screenshots or a live demo link if applicable.
-- ✅ Ensure proper file structure and naming conventions.
+- ✔ Provide screenshots or a live demo link if applicable.
+- ✔ Ensure proper file structure and naming conventions.
 
 
 6️⃣ **Code Style Guidelines**
